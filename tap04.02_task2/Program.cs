@@ -198,7 +198,7 @@ namespace tap04._02_task2
             //        Console.WriteLine(start8 * 10 + 8);
 
             #endregion
-            //vghhfkhffhff
+   
             #region Task 8
             //    int num;
             //    int result = 0;
