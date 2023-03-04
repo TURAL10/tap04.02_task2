@@ -175,30 +175,33 @@ namespace tap04._02_task2
             #endregion
 
             #region Task 7
-            //    int newNumber = 0;
-            //    int start8 = 1;
-            //l1:
-            //    Console.Write("4 reqemli ededi daxil edin:");//1234
-            //    int.TryParse(Console.ReadLine(), out int num1);
-            //    int uzunluq1 = (int)Math.Log10(num1) + 1;
-            //    if (uzunluq1 != 4)
-            //    {
-            //        goto l1;
-            //    }
+        //    int newNumber = 0;
+        //    int start8 = 1;
+        //l1:
+        //    Console.Write("4 reqemli ededi daxil edin:");//1234
+        //    int.TryParse(Console.ReadLine(), out int num1);
+        //    int uzunluq1 = (int)Math.Log10(num1) + 1;
+        //    if (uzunluq1 != 4)
+        //    {
+        //        goto l1;
+        //    }
 
 
-
-            //        while (num1 > 0)
-            //        {
-            //            int qaliq = num1 % 10;
-            //            newNumber = newNumber * 10 + qaliq;
-            //            num1 /= 10;
-            //            start8 = 8 * (int)Math.Pow(10, uzunluq1) + newNumber;
-            //        }
-            //        Console.WriteLine(start8 * 10 + 8);
+        //    else
+        //    {
+        //        while (num1 > 0)
+        //        {
+        //            int qaliq = num1 % 10;
+        //            newNumber = newNumber * 10 + qaliq;
+        //            num1 /= 10;
+        //        }
+        //        start8 = 8 * (int)Math.Pow(10, uzunluq1) + newNumber;
+        //        Console.WriteLine(start8 * 10 + 8);
+        //    }
+           
 
             #endregion
-   
+
             #region Task 8
             //    int num;
             //    int result = 0;
@@ -542,154 +545,154 @@ namespace tap04._02_task2
             #endregion
 
             #region Task 15
-            int num1, num2, uzunluq1, uzunluq2, num3, uzunluq3, num4, uzunluq4, num5, uzunluq5;
-            //int sum1 = 0;
-            //int sum2 = 0;
-            int sum3 = 0;
-            //int sum4 = 0;
-            int pow3 = 0;
-            int pow7 = 0;
-            int pow7_2 = 0;
-            int pow6 = 0;
-            int son2_3 = 0;
-            int son5_7 = 0;
-            int son3_6 = 0;
-            int sum_n7 = 0;
-            int tersSum7 = 0;
-            int a = 2;
-            int b = 3;
-            int tekyer7 = 0;
-        l1:
-            Console.Write("1ci 3 reqemli ededi daxil edin:");
+            //    int num1, num2, uzunluq1, uzunluq2, num3, uzunluq3, num4, uzunluq4, num5, uzunluq5;
+            //    //int sum1 = 0;
+            //    //int sum2 = 0;
+            //    int sum3 = 0;
+            //    //int sum4 = 0;
+            //    int pow3 = 0;
+            //    int pow7 = 0;
+            //    int pow7_2 = 0;
+            //    int pow6 = 0;
+            //    int son2_3 = 0;
+            //    int son5_7 = 0;
+            //    int son3_6 = 0;
+            //    int sum_n7 = 0;
+            //    int tersSum7 = 0;
+            //    int a = 2;
+            //    int b = 3;
+            //    int tekyer7 = 0;
+            //l1:
+            //    Console.Write("1ci 3 reqemli ededi daxil edin:");
 
-            int.TryParse(Console.ReadLine(), out num1);
-            uzunluq1 = (int)Math.Log10(num1) + 1;
-            if (uzunluq1 != 3)
-            {
-                goto l1;
-            }
-
-
-        l2:
-            Console.Write("2ci 3 reqemli ededi daxil edin:");
-
-            int.TryParse(Console.ReadLine(), out num2);
-            uzunluq2 = (int)Math.Log10(num2) + 1;
-            if (uzunluq2 != 3)
-            {
-                goto l2;
-            }
+            //    int.TryParse(Console.ReadLine(), out num1);
+            //    uzunluq1 = (int)Math.Log10(num1) + 1;
+            //    if (uzunluq1 != 3)
+            //    {
+            //        goto l1;
+            //    }
 
 
-        l3:
-            Console.Write("1ci 6 reqemli ededi daxil edin:");
+            //l2:
+            //    Console.Write("2ci 3 reqemli ededi daxil edin:");
 
-            int.TryParse(Console.ReadLine(), out num3);
-            uzunluq3 = (int)Math.Log10(num3) + 1;
-            if (uzunluq3 != 6)
-            {
-                goto l3;
-            }
-
-
-        l4:
-            Console.Write("2ci 6 reqemli ededi daxil edin:");
-
-            int.TryParse(Console.ReadLine(), out num4);
-            uzunluq4 = (int)Math.Log10(num4) + 1;
-            if (uzunluq4 != 6)
-            {
-                goto l4;
-            }
-        l5:
-            Console.Write("7 reqemli ededi daxil edin:");
-
-            int.TryParse(Console.ReadLine(), out num5);
-            uzunluq5 = (int)Math.Log10(num5) + 1;
-            int temp3_1 = num1;
-            int temp3_2 = num2;
-            int temp6_1 = num3;
-            int temp6_2 = num4;
-            int temp7 = num5;
-            int n7 = num5;
-            int n7_2 = num5;
-            if (uzunluq5 != 7)
-            {
-                goto l5;
-            }
+            //    int.TryParse(Console.ReadLine(), out num2);
+            //    uzunluq2 = (int)Math.Log10(num2) + 1;
+            //    if (uzunluq2 != 3)
+            //    {
+            //        goto l2;
+            //    }
 
 
-            else
-            {
-                sum3 = num1 + num2;
-                while (a > 0)
-                {
-                    int qaliq3 = sum3 % 10;
-                    sum3 /= 10;
-                    son2_3 += qaliq3 * (int)Math.Pow(10, pow3);
-                    a--;
-                    pow3++;
-                }
-                int son2_3kv = (int)Math.Pow(10, 2);
-                int yapis_4 = num1 * (int)Math.Pow(10, uzunluq2) + num2;
-                int topla1 = son2_3 + yapis_4;
+            //l3:
+            //    Console.Write("1ci 6 reqemli ededi daxil edin:");
 
-                while (temp7 > 100)
-                {
-                    int qaliq7 = temp7 % 10;
-                    temp7 /= 10;
-                    son5_7 += qaliq7 * (int)Math.Pow(10, pow7);
-                    pow7++;
-                }
+            //    int.TryParse(Console.ReadLine(), out num3);
+            //    uzunluq3 = (int)Math.Log10(num3) + 1;
+            //    if (uzunluq3 != 6)
+            //    {
+            //        goto l3;
+            //    }
 
-                int cixma1 = topla1 - son5_7;
-                int sum6 = temp6_1 + temp6_2;
-                while (b > 0)
-                {
-                    int qaliq6 = sum6 % 10;
-                    sum6 /= 10;
-                    son3_6 += qaliq6 * (int)Math.Pow(10, pow6);
-                    b--;
-                    pow6++;
-                }
 
-                int topla2 = cixma1 + son3_6;
-                while (n7 > 0)
-                {
-                    int qaliqn7 = n7 % 10;
-                    n7 /= 10;
-                    sum_n7 += qaliqn7;
-                }
+            //l4:
+            //    Console.Write("2ci 6 reqemli ededi daxil edin:");
 
-                int t = sum_n7;
-                while (t > 0)
-                {
-                    int qaliqSum7 = t % 10;
-                    tersSum7 = tersSum7 * 10 + qaliqSum7;
-                    t /= 10;
-                }
-                int topla3 = topla2 + tersSum7;
-                int add_11 = topla3 * 100 + 11;
+            //    int.TryParse(Console.ReadLine(), out num4);
+            //    uzunluq4 = (int)Math.Log10(num4) + 1;
+            //    if (uzunluq4 != 6)
+            //    {
+            //        goto l4;
+            //    }
+            //l5:
+            //    Console.Write("7 reqemli ededi daxil edin:");
 
-                while (n7_2 > 0)
-                {
-                    int qaliqn7_2 = n7_2 % 10;
-                    n7_2 /= 100;
-                    tekyer7 += qaliqn7_2 * (int)Math.Pow(10, pow7_2);
-                    pow7_2++;
-                }
+            //    int.TryParse(Console.ReadLine(), out num5);
+            //    uzunluq5 = (int)Math.Log10(num5) + 1;
+            //    int temp3_1 = num1;
+            //    int temp3_2 = num2;
+            //    int temp6_1 = num3;
+            //    int temp6_2 = num4;
+            //    int temp7 = num5;
+            //    int n7 = num5;
+            //    int n7_2 = num5;
+            //    if (uzunluq5 != 7)
+            //    {
+            //        goto l5;
+            //    }
 
-                long cixma2 = add_11 - tekyer7;
-                long resultQaliq = cixma2 % 10;
-                long qqq = cixma2 / 10;
-                long add_88 = qqq * 100 + 88;
-                long result = add_88 * 10 + resultQaliq;
-                //string result = convertToString(add_88 + 1);
 
-                Console.WriteLine(sum_n7);
-                Console.WriteLine(tersSum7);
-                Console.WriteLine(result);
-            }
+            //    else
+            //    {
+            //        sum3 = num1 + num2;
+            //        while (a > 0)
+            //        {
+            //            int qaliq3 = sum3 % 10;
+            //            sum3 /= 10;
+            //            son2_3 += qaliq3 * (int)Math.Pow(10, pow3);
+            //            a--;
+            //            pow3++;
+            //        }
+            //        int son2_3kv = (int)Math.Pow(10, 2);
+            //        int yapis_4 = num1 * (int)Math.Pow(10, uzunluq2) + num2;
+            //        int topla1 = son2_3 + yapis_4;
+
+            //        while (temp7 > 100)
+            //        {
+            //            int qaliq7 = temp7 % 10;
+            //            temp7 /= 10;
+            //            son5_7 += qaliq7 * (int)Math.Pow(10, pow7);
+            //            pow7++;
+            //        }
+
+            //        int cixma1 = topla1 - son5_7;
+            //        int sum6 = temp6_1 + temp6_2;
+            //        while (b > 0)
+            //        {
+            //            int qaliq6 = sum6 % 10;
+            //            sum6 /= 10;
+            //            son3_6 += qaliq6 * (int)Math.Pow(10, pow6);
+            //            b--;
+            //            pow6++;
+            //        }
+
+            //        int topla2 = cixma1 + son3_6;
+            //        while (n7 > 0)
+            //        {
+            //            int qaliqn7 = n7 % 10;
+            //            n7 /= 10;
+            //            sum_n7 += qaliqn7;
+            //        }
+
+            //        int t = sum_n7;
+            //        while (t > 0)
+            //        {
+            //            int qaliqSum7 = t % 10;
+            //            tersSum7 = tersSum7 * 10 + qaliqSum7;
+            //            t /= 10;
+            //        }
+            //        int topla3 = topla2 + tersSum7;
+            //        int add_11 = topla3 * 100 + 11;
+
+            //        while (n7_2 > 0)
+            //        {
+            //            int qaliqn7_2 = n7_2 % 10;
+            //            n7_2 /= 100;
+            //            tekyer7 += qaliqn7_2 * (int)Math.Pow(10, pow7_2);
+            //            pow7_2++;
+            //        }
+
+            //        long cixma2 = add_11 - tekyer7;
+            //        long resultQaliq = cixma2 % 10;
+            //        long qqq = cixma2 / 10;
+            //        long add_88 = qqq * 100 + 88;
+            //        long result = add_88 * 10 + resultQaliq;
+            //        //string result = convertToString(add_88 + 1);
+
+            //        Console.WriteLine(sum_n7);
+            //        Console.WriteLine(tersSum7);
+            //        Console.WriteLine(result);
+            //}
 
             #endregion
         }
