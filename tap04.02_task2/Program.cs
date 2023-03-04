@@ -662,15 +662,15 @@ namespace tap04._02_task2
                 }
 
                 int t = sum_n7;
-                int qaliqsum7_2 = num5 % 10;
+               // int qaliqsum7_2 = num5 % 10;
                 while (t > 0)
                 {
                     int qaliqSum7 = t % 10;
                     tersSum7 += tersSum7 * 10 + qaliqSum7;
                     t /= 10;
                 }
-                int tersSum_res7 = tersSum7 - qaliqsum7_2;
-                int topla3 = topla2 + tersSum_res7;
+                //int tersSum_res7 = tersSum7 - qaliqsum7_2;
+                int topla3 = topla2 + tersSum7;
                 int add_11 = topla3 * 100 + 11;
 
                 while (n7_2 > 0)
